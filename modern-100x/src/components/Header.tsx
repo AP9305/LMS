@@ -1,3 +1,9 @@
+// Force dark mode on initial load
+if (typeof window !== 'undefined') {
+  document.documentElement.classList.add('dark');
+  localStorage.setItem('theme', 'dark');
+}
+
 const toggleDarkMode = () => {
   const html = document.documentElement;
   if (html.classList.contains('dark')) {
@@ -34,7 +40,7 @@ const Header = () => (
       <button
         aria-label="Toggle dark mode"
         onClick={toggleDarkMode}
-        className="absolute top-1 right-1 w-4 h-4 p-0 m-0 opacity-10 hover:opacity-40 transition text-xs z-50"
+        className="absolute top-0.5 right-0.5 w-2 h-2 p-0 m-0 opacity-5 hover:opacity-20 transition text-[8px] z-50 sm:w-2 sm:h-2 sm:text-[8px] md:w-2 md:h-2 md:text-[8px]"
         style={{ pointerEvents: 'auto' }}
       >
         <span role="img" aria-label="Toggle dark mode">🌙</span>
