@@ -14,7 +14,7 @@ const Header = () => (
     <div className="flex items-center select-none flex-col">
       <div className="flex items-center">
         <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center mr-2">
-          <img src="/src/assets/Screenshot_2025-06-18_132738-removebg-preview.png" alt="AI Mascot" className="w-8 h-8 object-contain" />
+          <img src="/Screenshot_2025-06-18_132738-removebg-preview.png" alt="AI Mascot" className="w-8 h-8 object-contain" />
         </div>
         <span className="text-[28px] font-extrabold leading-none tracking-tight bg-gradient-to-r from-blue-500 via-pink-500 to-orange-500 bg-clip-text text-transparent font-sans">AI</span>
         <span className="text-[28px] font-extrabold leading-none tracking-tight text-black dark:text-white font-sans ml-1">LifeBOT</span>

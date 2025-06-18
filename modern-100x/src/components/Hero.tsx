@@ -19,8 +19,8 @@ const Hero = () => (
       }}
     />
     {/* Layered PNG Backgrounds with reduced horizontal separation */}
-    <img src="/src/assets/hero-bg-1.png" alt="Hero Background 1" className="absolute left-[43%] top-1/2 -translate-x-1/2 -translate-y-1/2 w-[900px] max-w-full z-0 pointer-events-none select-none" />
-    <img src="/src/assets/hero-bg-2.png" alt="Hero Background 2" className="absolute left-[57%] top-1/2 -translate-x-1/2 -translate-y-1/2 w-[900px] max-w-full z-0 pointer-events-none select-none" style={{ opacity: 0.7 }} />
+    <img src="/hero-bg-1.png" alt="Hero Background 1" className="absolute left-[43%] top-1/2 -translate-x-1/2 -translate-y-1/2 w-[900px] max-w-full z-0 pointer-events-none select-none" />
+    <img src="/hero-bg-2.png" alt="Hero Background 2" className="absolute left-[57%] top-1/2 -translate-x-1/2 -translate-y-1/2 w-[900px] max-w-full z-0 pointer-events-none select-none" style={{ opacity: 0.7 }} />
     <div className="relative z-10 flex flex-col items-center w-full">
       <h1 className="text-5xl md:text-6xl font-bold text-center text-white leading-tight font-sans" style={{ fontFamily: 'Inter, sans-serif' }}>
         <span>Become a</span><br />

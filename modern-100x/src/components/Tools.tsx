@@ -1,16 +1,16 @@
 const tools = [
-  { name: 'Python', icon: '/src/assets/python.png' },
-  { name: 'Langchain', icon: '/src/assets/langchain.png' },
-  { name: 'Github', icon: '/src/assets/github (1).png' },
-  { name: 'Google Collab', icon: '/src/assets/colab-color.png' },
-  { name: 'PyTorch', icon: '/src/assets/pytorch.png' },
-  { name: 'Huggingface', icon: '/src/assets/huggingface-color.png' },
-  { name: 'Civit AI', icon: '/src/assets/civitai-color.png' },
-  { name: 'Replicate', icon: '/src/assets/replicate.png' },
-  { name: 'Dreambooth', icon: '/src/assets/anNTITSrQQ1NGZoZGOSP1idSAcA.png' },
-  { name: 'OpenAI API', icon: '/src/assets/openai (1).png' },
-  { name: 'Auto1111', icon: '/src/assets/automatic-color.png' },
-  { name: 'Stable Diffusion', icon: '/src/assets/stability-color.png' },
+  { name: 'Python', icon: '/python.png' },
+  { name: 'Langchain', icon: '/langchain.png' },
+  { name: 'Github', icon: '/github (1).png' },
+  { name: 'Google Collab', icon: '/colab-color.png' },
+  { name: 'PyTorch', icon: '/pytorch.png' },
+  { name: 'Huggingface', icon: '/huggingface-color.png' },
+  { name: 'Civit AI', icon: '/civitai-color.png' },
+  { name: 'Replicate', icon: '/replicate.png' },
+  { name: 'Dreambooth', icon: '/anNTITSrQQ1NGZoZGOSP1idSAcA.png' },
+  { name: 'OpenAI API', icon: '/openai (1).png' },
+  { name: 'Auto1111', icon: '/automatic-color.png' },
+  { name: 'Stable Diffusion', icon: '/stability-color.png' },
 ];
 
 const Tools = () => (

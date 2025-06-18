@@ -1,10 +1,10 @@
 const companies = [
-  { name: 'Facebook', logo: '/src/assets/facebook.jpg' },
-  { name: 'Tesla', logo: '/src/assets/tesla.jpg' },
-  { name: 'Netflix', logo: '/src/assets/netflix.png' },
-  { name: 'Apple', logo: '/src/assets/apple.png' },
-  { name: 'Microsoft', logo: '/src/assets/microsoft.jpg' },
-  { name: 'Google', logo: '/src/assets/google.jpg' },
+  { name: 'Facebook', logo: '/facebook.jpg' },
+  { name: 'Tesla', logo: '/tesla.jpg' },
+  { name: 'Netflix', logo: '/netflix.png' },
+  { name: 'Apple', logo: '/apple.png' },
+  { name: 'Microsoft', logo: '/microsoft.jpg' },
+  { name: 'Google', logo: '/google.jpg' },
 ];
 
 const CompanyMarquee = () => (
