@@ -1,5 +1,3 @@
-import React from 'react';
-
 const modules = [
   { week: 'WEEK 0', title: 'Essential Prerequisites', desc: 'Intro to Generative AI, Master Midjourney' },
   { week: 'WEEK 1', title: 'Proprietary Models & Diffusion', desc: 'History of GenAI, How Diffusion Models Work, Prompt Engineering' },

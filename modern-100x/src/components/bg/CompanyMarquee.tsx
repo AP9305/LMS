@@ -1,5 +1,3 @@
-import React from 'react';
-
 const companies = [
   { name: 'Facebook', logo: '/src/assets/facebook.jpg' },
   { name: 'Tesla', logo: '/src/assets/tesla.jpg' },

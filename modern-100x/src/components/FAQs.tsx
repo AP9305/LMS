@@ -1,5 +1,3 @@
-import React from 'react';
-
 const faqs = [
   {
     q: 'What distinguishes this Generative AI course from others, like those focused on ChatGPT?',

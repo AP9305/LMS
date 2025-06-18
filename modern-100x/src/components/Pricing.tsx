@@ -1,5 +1,3 @@
-import React from 'react';
-
 const plans = [
   {
     title: 'EMI as low as',

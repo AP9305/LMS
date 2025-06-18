@@ -1,5 +1,3 @@
-import React from 'react';
-
 const features = [
   '24 Weeks Cohort',
   'GPU credits from AWS for 5 months',

@@ -1,5 +1,3 @@
-import React from 'react';
-
 const mentors = [
   { name: 'Sridev Ramesh', title: 'Ex-Teaching Fellow, CS50 @ Harvard', avatar: '🧑‍🏫' },
   { name: 'Tejas Tholpadi', title: 'Co-Founder & Ex-CTO Avalon, Built God in a Box', avatar: '🧑‍💻' },

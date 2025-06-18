@@ -1,5 +1,3 @@
-import React from 'react';
-
 const projects = [
   { name: 'AlphaCTR', desc: 'Your Personal AI Graphic Designer.' },
   { name: 'God in a Box', desc: 'ChatGPT on Whatsapp.' },

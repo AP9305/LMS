@@ -1,5 +1,3 @@
-import React from 'react';
-
 const tools = [
   { name: 'Python', icon: '/src/assets/python.png' },
   { name: 'Langchain', icon: '/src/assets/langchain.png' },

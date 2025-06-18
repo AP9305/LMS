@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Hero = () => (
   <section className="relative flex flex-col items-center justify-center min-h-[70vh] pt-40 pb-16 overflow-hidden fade-in">
     {/* Cinematic, moody, high-contrast background with light beams */}
