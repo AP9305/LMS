@@ -1,5 +1,3 @@
-import React from 'react';
-
 const toggleDarkMode = () => {
   const html = document.documentElement;
   if (html.classList.contains('dark')) {

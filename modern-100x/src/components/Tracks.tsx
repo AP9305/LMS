@@ -1,5 +1,3 @@
-import React from 'react';
-
 const bullets = [
   'Looking to upskill in GenAI',
   'Looking to change career paths into GenAI',
