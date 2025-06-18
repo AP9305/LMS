@@ -33,8 +33,8 @@ const Tools = () => (
       }}
     />
     <div className="relative z-10 w-full flex flex-col items-center">
-      <h2 className="text-3xl md:text-4xl font-bold text-center text-black dark:text-white mb-4">What will you master?</h2>
-      <p className="text-lg text-gray-700 dark:text-gray-300 text-center max-w-2xl mb-10">
+      <h2 className="text-3xl md:text-4xl font-bold text-center text-neutral-900 dark:text-neutral-100 mb-4">What will you master?</h2>
+      <p className="text-lg text-neutral-700 dark:text-neutral-300 text-center max-w-2xl mb-10">
         Through these tools and frameworks, learn the most important skill - to think like an AI builder!
       </p>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 max-w-5xl w-full">
@@ -43,7 +43,7 @@ const Tools = () => (
             <div className="mb-2 flex items-center justify-center" style={{height: '40px'}}>
               <img src={tool.icon} alt={tool.name + ' logo'} className="h-10 w-auto max-w-[48px] object-contain" />
             </div>
-            <span className="text-base font-semibold text-black dark:text-white text-center">{tool.name}</span>
+            <span className="text-base font-semibold text-neutral-900 dark:text-neutral-100 text-center">{tool.name}</span>
           </div>
         ))}
       </div>

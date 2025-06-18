@@ -25,15 +25,15 @@ const Tracks = () => (
       }}
     />
     <div className="relative z-10 w-full flex flex-col items-center">
-      <h2 className="text-4xl md:text-5xl font-extrabold text-black dark:text-white text-left w-full max-w-4xl mb-4">
+      <h2 className="text-4xl md:text-5xl font-extrabold text-neutral-900 dark:text-neutral-100 text-left w-full max-w-4xl mb-4">
         Who is this <span className="bg-gradient-to-r from-blue-500 via-pink-500 to-orange-500 bg-clip-text text-transparent">for?</span>
       </h2>
-      <p className="text-lg md:text-xl font-mono text-black dark:text-white text-left w-full max-w-4xl mb-6">
+      <p className="text-lg md:text-xl font-mono text-neutral-900 dark:text-neutral-100 text-left w-full max-w-4xl mb-6">
         From complete programming noobs to experienced professionals. No prior coding experience required, but surely helpful.
       </p>
       <ul className="flex flex-col gap-4 w-full max-w-4xl">
         {bullets.map((b, idx) => (
-          <li key={idx} className="flex items-center font-mono text-lg md:text-xl text-black dark:text-white">
+          <li key={idx} className="flex items-center font-mono text-lg md:text-xl text-neutral-900 dark:text-neutral-100">
             <span className="w-7 h-7 flex items-center justify-center bg-gradient-to-r from-blue-500 via-pink-500 to-orange-500 text-white rounded-full mr-3 text-xl font-bold">&gt;</span>
             {b}
           </li>
