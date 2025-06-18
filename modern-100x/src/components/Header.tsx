@@ -31,6 +31,14 @@ const Header = () => (
       <a href="#" className="hover:bg-gradient-to-r hover:from-blue-500 hover:via-pink-500 hover:to-orange-500 hover:bg-clip-text hover:text-transparent transition-colors">Contact Us</a>
     </nav>
     <div className="flex items-center gap-3 w-full md:w-auto">
+      <button
+        aria-label="Toggle dark mode"
+        onClick={toggleDarkMode}
+        className="absolute top-1 right-1 w-4 h-4 p-0 m-0 opacity-10 hover:opacity-40 transition text-xs z-50"
+        style={{ pointerEvents: 'auto' }}
+      >
+        <span role="img" aria-label="Toggle dark mode">🌙</span>
+      </button>
       <button className="w-full md:w-auto ml-0 md:ml-2 px-4 sm:px-7 py-3 sm:py-2.5 bg-gradient-to-r from-blue-500 via-pink-500 to-orange-500 text-white rounded-xl font-semibold text-base shadow-lg hover:from-blue-600 hover:via-pink-600 hover:to-orange-600 transition-all luxury-btn">Enroll Now</button>
     </div>
   </header>
