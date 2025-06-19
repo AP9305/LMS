@@ -159,7 +159,7 @@ const CurriculumTimeline = () => {
           {/* Vertical timeline line */}
           <div className="absolute left-6 top-0 w-1 h-full border-dashed border-l-2 border-gray-300 dark:border-gray-700 z-0" />
           <div className="flex flex-col gap-12">
-            {curriculum.map((week, idx) => (
+            {curriculum.map((week, idx: number) => (
               <div key={idx} className="relative flex items-start">
                 {/* Timeline marker and badge */}
                 <div className="flex flex-col items-center mr-6 z-10 min-w-[48px]">
@@ -193,7 +193,7 @@ const CurriculumTimeline = () => {
                               })}
                             </div>
                           </div>
-                          {mod.free && <span className="text-xs text-green-600 font-bold">Watch for free</span>}
+                          {'free' in mod && mod.free && <span className="text-xs text-green-600 font-bold">Watch for free</span>}
                         </div>
                       ))}
                     </div>
