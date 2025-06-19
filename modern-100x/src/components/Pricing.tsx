@@ -1,20 +1,3 @@
-const plans = [
-  {
-    title: 'EMI as low as',
-    price: '₹12,457',
-    period: '/month for 12 months',
-    desc: 'Access to live classes, curriculum, mentoring, community, events, and job board.',
-    button: 'Enroll Now',
-  },
-  {
-    title: 'Upfront',
-    price: '₹1,49,490',
-    period: '',
-    desc: 'Access to live classes, curriculum, mentoring, community, events, and job board.',
-    button: 'Enroll Now',
-  },
-];
-
 const Pricing = () => (
   <section className="relative w-full py-20 px-4 flex flex-col items-center fade-in overflow-hidden">
     <div
