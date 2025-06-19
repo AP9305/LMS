@@ -1,9 +1,9 @@
 const features = [
-  '24 Weeks Cohort',
-  'GPU credits from AWS for 5 months',
+  '12 Weeks Cohort',
+  'GPU Credits from AWS for 5 Months',
   'Build Your Own GenAI Products',
   'Professional Certificate',
-  '150+ Hours of Learning',
+  '75+ Hours of Learning',
   'Elite Developer Community',
 ];
 
@@ -28,17 +28,17 @@ const Features = () => (
     />
     <div className="relative z-10 w-full flex flex-col items-center">
       <h2 className="text-3xl md:text-4xl font-bold text-center text-neutral-900 dark:text-neutral-100 mb-10">
-        What's <span className="bg-gradient-to-r from-blue-500 via-pink-500 to-orange-500 bg-clip-text text-transparent">Inside</span>?
+        What's <span className="bg-gradient-to-r from-blue-500 via-pink-500 to-orange-500 bg-clip-text text-transparent">Inside?</span>
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl w-full">
         {features.map((feature, idx) => (
-          <div key={idx} className="bg-[#18181b] dark:bg-[#232326] rounded-xl p-8 text-neutral-900 dark:text-neutral-100 text-lg font-semibold text-center shadow-md border border-[#232326] dark:border-[#232326] flex items-center justify-center gap-4">
-            <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-gradient-to-br from-blue-500 via-pink-500 to-orange-400 shrink-0 mx-auto">
+          <div key={idx} className="bg-[#18181b] dark:bg-[#232326] rounded-xl p-8 text-neutral-900 dark:text-neutral-100 text-lg font-semibold text-center shadow-md border border-[#232326] dark:border-[#232326] flex flex-row items-center justify-center gap-4">
+            <span className="flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-br from-blue-500 via-pink-500 to-orange-400 flex-shrink-0">
               <svg width="18" height="18" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M7 5L12 10L7 15" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
             </span>
-            <span>{feature}</span>
+            <span className="block w-full break-words text-left">{feature}</span>
           </div>
         ))}
       </div>

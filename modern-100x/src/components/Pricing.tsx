@@ -35,19 +35,14 @@ const Pricing = () => (
       }}
     />
     <div className="relative z-10 w-full flex flex-col items-center">
-      <h2 className="text-3xl md:text-4xl font-bold text-center text-black dark:text-white mb-4">Ready to level up with AI LifeBOT?</h2>
+      <h2 className="text-3xl md:text-4xl font-bold text-center text-black dark:text-white mb-4">Ready to Level Up with <span className="bg-gradient-to-r from-blue-500 via-pink-500 to-orange-500 bg-clip-text text-transparent">AI</span> LifeBOT?</h2>
       <p className="text-lg text-gray-700 dark:text-gray-300 text-center max-w-2xl mb-10">
         Access to live classes, curriculum, mentoring, community, events, and job board.
       </p>
       <div className="flex flex-col md:flex-row gap-8 justify-center items-center mb-6">
-        {plans.map((plan, idx) => (
-          <div key={idx} className="flex flex-col items-center bg-[#f7f7f8] dark:bg-[#232326] rounded-xl p-8 shadow border border-[#ececec] dark:border-[#232326] min-w-[260px]">
-            <div className="text-2xl font-bold text-black dark:text-white mb-2">{plan.price}</div>
-            <div className="text-gray-500 dark:text-gray-400 mb-2">{plan.period}</div>
-            <div className="text-gray-700 dark:text-gray-300 text-center mb-4 text-sm">{plan.desc}</div>
-            <button className="px-6 py-2 bg-gradient-to-r from-blue-500 via-pink-500 to-orange-500 text-white rounded-lg font-semibold hover:from-blue-600 hover:via-pink-600 hover:to-orange-600 transition">{plan.button}</button>
-          </div>
-        ))}
+      </div>
+      <div className="flex justify-center">
+        <button className="px-6 py-2 bg-gradient-to-r from-blue-500 via-pink-500 to-orange-500 text-white rounded-lg font-semibold hover:from-blue-600 hover:via-pink-600 hover:to-orange-600 transition">Enroll Now</button>
       </div>
     </div>
   </section>

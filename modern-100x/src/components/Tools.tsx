@@ -33,7 +33,7 @@ const Tools = () => (
       }}
     />
     <div className="relative z-10 w-full flex flex-col items-center">
-      <h2 className="text-3xl md:text-4xl font-bold text-center text-neutral-900 dark:text-neutral-100 mb-4">What will you master?</h2>
+      <h2 className="text-3xl md:text-4xl font-bold text-center text-neutral-900 dark:text-neutral-100 mb-4">What Will You <span className="bg-gradient-to-r from-blue-500 via-pink-500 to-orange-500 bg-clip-text text-transparent">Master?</span></h2>
       <p className="text-lg text-neutral-700 dark:text-neutral-300 text-center max-w-2xl mb-10">
         Through these tools and frameworks, learn the most important skill - to think like an AI builder!
       </p>

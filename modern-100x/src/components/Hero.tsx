@@ -19,15 +19,15 @@ const Hero = () => (
       }}
     />
     {/* Layered PNG Backgrounds with reduced horizontal separation */}
-    <img src="/hero-bg-1.png" alt="Hero Background 1" className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[350px] sm:w-[900px] max-w-full z-0 pointer-events-none select-none" />
-    <img src="/hero-bg-2.png" alt="Hero Background 2" className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[350px] sm:w-[900px] max-w-full z-0 pointer-events-none select-none" style={{ opacity: 0.7 }} />
+    <img src="/hero-bg-1.png" alt="Hero Background 1" className="absolute left-1/2 top-1/2 -translate-x-[70%] -translate-y-1/2 w-[350px] sm:w-[900px] max-w-full z-0 pointer-events-none select-none" />
+    <img src="/hero-bg-2.png" alt="Hero Background 2" className="absolute left-1/2 top-1/2 -translate-x-[33%] -translate-y-1/2 w-[350px] sm:w-[900px] max-w-full z-0 pointer-events-none select-none" style={{ opacity: 0.7 }} />
     <div className="relative z-10 flex flex-col items-center w-full">
       <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold text-center text-white leading-tight" style={{ fontFamily: 'SF Pro Display, SF Pro, SF Pro Icons, San Francisco, Helvetica Neue, Helvetica, Arial, sans-serif' }}>
         <span>Become a</span><br />
         <span className="bg-gradient-to-r from-blue-500 via-pink-500 to-orange-500 bg-clip-text text-transparent">Generative-AI Expert</span>
       </h1>
       <p className="mt-4 sm:mt-6 text-base sm:text-xl md:text-2xl text-center text-gray-200 font-medium">
-        From Zero to Pro in 6 months.<br />
+        From Zero to Pro in 3 months.<br />
         NOT another ChatGPT course.
       </p>
       <div className="mt-6 sm:mt-8 flex flex-col gap-3 sm:gap-4 w-full max-w-xs">

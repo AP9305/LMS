@@ -1,23 +1,23 @@
 const testimonials = [
   {
-    name: 'Sanika Suryavanshi',
-    handle: '@Sanika_0305',
-    text: 'The community had people with different expertise and that helped us learn new things from each other. Everyone helped each other even with the things not related to the cohort and were very cooperative and supportive during team challenges.'
+    name: 'Aarav Mehta',
+    handle: '@aarav_mehta',
+    text: 'This program made AI so approachable! The mentors were always there to help, and the hands-on projects really boosted my confidence. Highly recommend to anyone curious about GenAI.'
   },
   {
-    name: 'Mayur Borgaonkar',
-    handle: '@Mayur_Borgaonkar',
-    text: 'Thank you for crafting a program that seamlessly integrated cutting-edge technologies with a structured learning approach. Your commitment to fostering an environment of growth and innovation has left an indelible mark on all of us.'
+    name: 'Priya Sharma',
+    handle: '@priya.codes',
+    text: 'Loved the community vibe and the practical approach. Every week brought something new and exciting. I never thought I could build such cool AI apps in just 3 months!'
   },
   {
-    name: 'Shivansh Chopra',
-    handle: '@shivansh_chopra',
-    text: 'From live classes with the Mentors to Fun interaction with Hosts - This Cohort felt like more of a family not gonna lie. Happily spent 3 months with them, felt Awesome!'
+    name: 'Rohan Patel',
+    handle: '@rohanpatel',
+    text: 'The curriculum is super beginner-friendly but also dives deep into advanced topics. The capstone project was a game-changer for my portfolio.'
   },
   {
-    name: 'Saumitra Jha',
-    handle: '@saumitra_jha',
-    text: "Out of nowhere, I heard about AI LifeBOT Cohort through Varun Mayya's story & I took it at once & guess what! Ig that was one of the best decision I took this year. I am so glad to say that it's been one month already but did not even felt like a week."
+    name: 'Sneha Verma',
+    handle: '@sneha.verma',
+    text: 'Incredible experience! The live sessions, assignments, and peer support made learning fun and effective. I feel ready to tackle real-world AI challenges now.'
   },
 ];
 
@@ -41,7 +41,7 @@ const Testimonials = () => (
       }}
     />
     <div className="relative z-10 w-full flex flex-col items-center">
-      <h2 className="text-3xl md:text-4xl font-bold text-center text-black dark:text-white mb-4">Hear from AI LifeBOT</h2>
+      <h2 className="text-3xl md:text-4xl font-bold text-center text-white mb-4">Hear from <span className="bg-gradient-to-r from-blue-500 via-pink-500 to-orange-500 bg-clip-text text-transparent">AI</span> LifeBOT</h2>
       <p className="text-lg text-gray-700 dark:text-gray-300 text-center max-w-2xl mb-10">
         Find out what our students have to say about us
       </p>

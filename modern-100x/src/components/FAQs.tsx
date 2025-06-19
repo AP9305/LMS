@@ -4,7 +4,7 @@ const faqs = [
     a: 'This course covers the full stack of Generative AI, not just ChatGPT. You will learn to build real products, not just use tools.'
   },
   {
-    q: 'What will I learn in the 24-week Generative AI course?',
+    q: 'What will I learn in the 12-week Generative AI course?',
     a: 'You will learn everything from the basics of GenAI to building and deploying full-stack AI products.'
   },
   {
@@ -37,7 +37,7 @@ const FAQs = () => (
       }}
     />
     <div className="relative z-10 w-full flex flex-col items-center">
-      <h2 className="text-3xl md:text-4xl font-bold text-center text-black dark:text-white mb-4">You'll have questions!</h2>
+      <h2 className="text-3xl md:text-4xl font-bold text-center text-black dark:text-white mb-4">You'll Have <span className="bg-gradient-to-r from-blue-500 via-pink-500 to-orange-500 bg-clip-text text-transparent">Questions!</span></h2>
       <p className="text-lg text-gray-700 dark:text-gray-300 text-center max-w-2xl mb-10">
         Everything you need to know about the course and payments.
       </p>

@@ -17,15 +17,17 @@ const toggleDarkMode = () => {
 
 const Header = () => (
   <header className="w-full flex items-center justify-between px-4 sm:px-8 md:px-12 py-3 sm:py-4 bg-white dark:bg-[#18181b] shadow-sm fixed top-0 left-0 z-50 h-[60px] sm:h-[72px]">
-    <div className="flex items-center select-none flex-col">
-      <div className="flex items-center">
-        <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-white flex items-center justify-center mr-2">
-          <img src="/Screenshot_2025-06-18_132738-removebg-preview.png" alt="AI Mascot" className="w-6 h-6 sm:w-8 sm:h-8 object-contain" />
-        </div>
-        <span className="text-xl sm:text-[28px] font-extrabold leading-none tracking-tight bg-gradient-to-r from-blue-500 via-pink-500 to-orange-500 bg-clip-text text-transparent">AI</span>
-        <span className="text-xl sm:text-[28px] font-extrabold leading-none tracking-tight text-black dark:text-white ml-1">LifeBOT</span>
+    <div className="flex items-center select-none">
+      <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-white flex items-center justify-center mr-2">
+        <img src="/Screenshot_2025-06-18_132738-removebg-preview.png" alt="AI Mascot" className="w-6 h-6 sm:w-8 sm:h-8 object-contain" />
       </div>
-      <span className="text-xs text-gray-400 font-semibold tracking-wide -mt-1 hidden sm:block">Academy</span>
+      <div className="flex flex-col">
+        <div className="flex items-center">
+          <span className="text-xl sm:text-[28px] font-extrabold leading-none tracking-tight bg-gradient-to-r from-blue-500 via-pink-500 to-orange-500 bg-clip-text text-transparent">AI</span>
+          <span className="text-xl sm:text-[28px] font-extrabold leading-none tracking-tight text-black dark:text-white ml-1">LifeBOT</span>
+        </div>
+        <span className="text-xs text-white font-semibold tracking-wide mt-1">Academy</span>
+      </div>
     </div>
     <nav className="hidden md:flex gap-4 sm:gap-8 text-sm sm:text-base font-medium text-[#222] dark:text-[#bdbdbd]">
       <a href="#" className="hover:bg-gradient-to-r hover:from-blue-500 hover:via-pink-500 hover:to-orange-500 hover:bg-clip-text hover:text-transparent transition-colors">Overview</a>

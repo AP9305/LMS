@@ -97,29 +97,31 @@ const curriculum = [
   },
   {
     week: 'WEEK 10',
-    title: 'Building Full Stack AI Apps',
+    title: 'Building Full Stack AI Apps & LLMs',
     icon: '🌐',
-    subtitle: 'BUILDING FULL STACK AI APPS',
+    subtitle: 'FULL STACK AI & INTRO TO LLMS',
     modules: [
       { title: 'Building Full Stack AI Apps', type: 'ASSIGNMENT', pills: ['1 ASSIGNMENT'] },
-    ],
-  },
-  {
-    week: 'WEEK 11',
-    title: 'Intro to LLMs',
-    icon: '🤖',
-    subtitle: 'INTRO TO LLMS',
-    modules: [
       { title: 'Intro to LLMs', type: 'VIDEO LESSON', pills: ['1 VIDEO LESSON'], free: true },
     ],
   },
   {
-    week: 'WEEK 12',
-    title: 'AI Agents, RAG, Vector DB, Fine-tuning, MLOps, PyTorch',
-    icon: '🧠',
-    subtitle: 'AI AGENTS, RAG, VECTOR DB, FINE-TUNING, MLOPS, PYTORCH',
+    week: 'WEEK 11',
+    title: 'AI Agents, RAG, Vector DB',
+    icon: '🤖',
+    subtitle: 'AI AGENTS, RAG, VECTOR DB',
     modules: [
-      { title: 'AI Agents, RAG, Vector DB, Fine-tuning, MLOps, PyTorch', type: 'VIDEO LESSON', pills: ['1 VIDEO LESSON'], free: true },
+      { title: 'AI Agents, RAG, Vector DB', type: 'VIDEO LESSON', pills: ['1 VIDEO LESSON'], free: true },
+    ],
+  },
+  {
+    week: 'WEEK 12',
+    title: 'Fine-tuning, MLOps, PyTorch, Capstone',
+    icon: '🧠',
+    subtitle: 'FINE-TUNING, MLOPS, PYTORCH, FINAL CAPSTONE',
+    modules: [
+      { title: 'Fine-tuning, MLOps, PyTorch', type: 'VIDEO LESSON', pills: ['1 VIDEO LESSON'], free: true },
+      { title: 'Final Capstone Project', type: 'ASSIGNMENT', pills: ['1 ASSIGNMENT'] },
     ],
   },
 ];
@@ -153,8 +155,8 @@ const CurriculumTimeline = () => {
         transition: 'background 0.8s cubic-bezier(0.22,1,0.36,1)',
       }} />
       <div className="relative z-10 w-full max-w-4xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold text-center text-black dark:text-white mb-2">What will you <span className="bg-gradient-to-r from-blue-500 via-pink-500 to-orange-500 bg-clip-text text-transparent">learn?</span></h2>
-        <p className="text-lg text-gray-700 dark:text-gray-300 text-center mb-10">The most beginner-friendly curriculum in Generative AI.<br />Zero to Pro in 6 months.</p>
+        <h2 className="text-3xl md:text-4xl font-bold text-center text-black dark:text-white mb-2">What Will You <span className="bg-gradient-to-r from-blue-500 via-pink-500 to-orange-500 bg-clip-text text-transparent">Learn?</span></h2>
+        <p className="text-lg text-gray-700 dark:text-gray-300 text-center mb-10">The most beginner-friendly curriculum in Generative AI.<br />Zero to Pro in 3 months.</p>
         <div className="relative">
           {/* Vertical timeline line */}
           <div className="absolute left-6 top-0 w-1 h-full border-dashed border-l-2 border-gray-300 dark:border-gray-700 z-0" />

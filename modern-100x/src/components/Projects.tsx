@@ -26,7 +26,7 @@ const Projects = () => (
       }}
     />
     <div className="relative z-10 w-full flex flex-col items-center">
-      <h2 className="text-3xl md:text-4xl font-bold text-center text-black dark:text-white mb-4">Creations from our AI Lab</h2>
+      <h2 className="text-3xl md:text-4xl font-bold text-center text-black dark:text-white mb-4">Creations from Our AI Lab</h2>
       <p className="text-lg text-gray-700 dark:text-gray-300 text-center max-w-2xl mb-10">
         We're always builders first!
       </p>
