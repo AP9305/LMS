@@ -33,7 +33,7 @@ const Features = () => (
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl w-full">
         {features.map((feature, idx) => (
           <div key={idx} className="bg-[#18181b] dark:bg-[#232326] rounded-xl p-8 text-neutral-900 dark:text-neutral-100 text-lg font-semibold text-center shadow-md border border-[#232326] dark:border-[#232326] flex items-center justify-center gap-4">
-            <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-gradient-to-br from-blue-500 via-pink-500 to-orange-400">
+            <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-gradient-to-br from-blue-500 via-pink-500 to-orange-400 shrink-0 mx-auto">
               <svg width="18" height="18" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M7 5L12 10L7 15" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
