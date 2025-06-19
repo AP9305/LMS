@@ -133,7 +133,7 @@ const pillColors = {
 const CurriculumTimeline = () => {
   const [open, setOpen] = useState(Array(curriculum.length).fill(true));
 
-  const toggle = idx => {
+  const toggle = (idx: number) => {
     setOpen(open => open.map((v, i) => (i === idx ? !v : v)));
   };
 
