@@ -22,7 +22,7 @@ const Hero = () => (
     <img src="/hero-bg-1.png" alt="Hero Background 1" className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[350px] sm:w-[900px] max-w-full z-0 pointer-events-none select-none" />
     <img src="/hero-bg-2.png" alt="Hero Background 2" className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[350px] sm:w-[900px] max-w-full z-0 pointer-events-none select-none" style={{ opacity: 0.7 }} />
     <div className="relative z-10 flex flex-col items-center w-full">
-      <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold text-center text-white leading-tight font-sans" style={{ fontFamily: 'Inter, sans-serif' }}>
+      <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold text-center text-white leading-tight" style={{ fontFamily: 'SF Pro Display, SF Pro, SF Pro Icons, San Francisco, Helvetica Neue, Helvetica, Arial, sans-serif' }}>
         <span>Become a</span><br />
         <span className="bg-gradient-to-r from-blue-500 via-pink-500 to-orange-500 bg-clip-text text-transparent">Generative-AI Expert</span>
       </h1>
@@ -32,7 +32,7 @@ const Hero = () => (
       </p>
       <div className="mt-6 sm:mt-8 flex flex-col gap-3 sm:gap-4 w-full max-w-xs">
         <button className="w-full px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-blue-500 via-pink-500 to-orange-500 text-white rounded-2xl font-semibold text-lg sm:text-xl shadow-lg hover:from-blue-600 hover:via-pink-600 hover:to-orange-600 transition luxury-btn">Enroll Now</button>
-        <button className="w-full px-6 sm:px-8 py-3 sm:py-4 bg-black dark:bg-white dark:text-black text-white rounded-2xl font-mono text-lg sm:text-xl font-bold shadow-lg hover:bg-gray-900 dark:hover:bg-gray-200 transition luxury-btn">Join Masterclass</button>
+        <button className="w-full px-6 sm:px-8 py-3 sm:py-4 bg-black dark:bg-white dark:text-black text-white rounded-2xl text-lg sm:text-xl font-bold shadow-lg hover:bg-gray-900 dark:hover:bg-gray-200 transition luxury-btn">Join Masterclass</button>
       </div>
       <div className="mt-4 sm:mt-6 text-center">
         <span className="text-gray-300 italic text-xs sm:text-sm">Next Cohort begins on <span className="font-semibold text-white">27th June</span></span>

@@ -27,7 +27,7 @@ const TracksShowcase = () => (
       linear-gradient(-60deg, rgba(239,68,68,0.07) 10%, transparent 80%),
       #0b0c10
     `,
-    fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif',
+    fontFamily: 'SF Pro Display, SF Pro, SF Pro Icons, San Francisco, Helvetica Neue, Helvetica, Arial, sans-serif',
     WebkitBackdropFilter: 'blur(20px)',
     backdropFilter: 'blur(20px)',
     transition: 'background 0.8s cubic-bezier(0.22,1,0.36,1)',
@@ -35,7 +35,7 @@ const TracksShowcase = () => (
     <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-2">
       Meet your goals with tailored <span className="bg-gradient-to-r from-pink-500 to-orange-400 bg-clip-text text-transparent">tracks</span>
     </h2>
-    <p className="text-lg text-gray-300 text-center mb-10 font-mono">Forget the one-size-fits-all approach</p>
+    <p className="text-lg text-gray-300 text-center mb-10">Forget the one-size-fits-all approach</p>
     <div className="flex flex-col gap-8 w-full max-w-3xl">
       {tracks.map((track, idx) => (
         <div key={idx} className="bg-[#18181b] dark:bg-[#232326] rounded-2xl p-8 shadow border border-[#232326] flex flex-col md:flex-row items-center md:items-start gap-6">
@@ -46,7 +46,7 @@ const TracksShowcase = () => (
               <span className={`text-lg font-bold bg-gradient-to-r ${track.color} bg-clip-text text-transparent`}>{track.title}</span>
             </div>
             <div className="text-base font-bold text-white mb-2">&gt; {track.subtitle}</div>
-            <div className="text-gray-400 text-sm mb-4 font-mono">{track.desc}</div>
+            <div className="text-gray-400 text-sm mb-4">{track.desc}</div>
             <div className="flex flex-wrap gap-4 mt-2">
               {track.points.map((point, i) => (
                 <div key={i} className="flex items-center gap-2 text-sm font-semibold text-white">

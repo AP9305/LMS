@@ -37,16 +37,37 @@ const Tools = () => (
       <p className="text-lg text-neutral-700 dark:text-neutral-300 text-center max-w-2xl mb-10">
         Through these tools and frameworks, learn the most important skill - to think like an AI builder!
       </p>
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 max-w-5xl w-full">
-        {tools.map((tool, idx) => (
-          <div key={idx} className="flex flex-col items-center bg-white dark:bg-[#18181b] rounded-xl p-6 shadow border border-[#ececec] dark:border-[#232326]">
-            <div className="mb-2 flex items-center justify-center" style={{height: '40px'}}>
-              <img src={tool.icon} alt={tool.name + ' logo'} className="h-10 w-auto max-w-[48px] object-contain" />
+      <div className="relative max-w-5xl mx-auto overflow-hidden w-full">
+        {/* Left soft fade */}
+        <div className="pointer-events-none absolute left-0 top-0 h-full w-64 z-20" style={{background: 'linear-gradient(to right, #0b0c10 2%, rgba(11,12,16,0.01) 80%, rgba(11,12,16,0))'}} />
+        {/* Right soft fade */}
+        <div className="pointer-events-none absolute right-0 top-0 h-full w-64 z-20" style={{background: 'linear-gradient(to left, #0b0c10 2%, rgba(11,12,16,0.01) 80%, rgba(11,12,16,0))'}} />
+        <div className="flex items-center gap-16 animate-marquee whitespace-nowrap" style={{ animation: 'marquee 18s linear infinite' }}>
+          {tools.map((tool, idx) => (
+            <div key={idx} className="w-40 h-28 flex flex-col items-center justify-center mx-2 bg-white dark:bg-[#18181b] rounded-xl p-4 shadow border border-[#ececec] dark:border-[#232326]">
+              <div className="mb-2 flex items-center justify-center" style={{height: '40px'}}>
+                <img src={tool.icon} alt={tool.name + ' logo'} className="h-10 w-auto max-w-[48px] object-contain" />
+              </div>
+              <span className="text-base font-semibold text-neutral-900 dark:text-neutral-100 text-center">{tool.name}</span>
             </div>
-            <span className="text-base font-semibold text-neutral-900 dark:text-neutral-100 text-center">{tool.name}</span>
-          </div>
-        ))}
+          ))}
+          {/* Duplicate for seamless loop */}
+          {tools.map((tool, idx) => (
+            <div key={idx + tools.length} className="w-40 h-28 flex flex-col items-center justify-center mx-2 bg-white dark:bg-[#18181b] rounded-xl p-4 shadow border border-[#ececec] dark:border-[#232326]">
+              <div className="mb-2 flex items-center justify-center" style={{height: '40px'}}>
+                <img src={tool.icon} alt={tool.name + ' logo'} className="h-10 w-auto max-w-[48px] object-contain" />
+              </div>
+              <span className="text-base font-semibold text-neutral-900 dark:text-neutral-100 text-center">{tool.name}</span>
+            </div>
+          ))}
+        </div>
       </div>
+      <style>{`
+        @keyframes marquee {
+          0% { transform: translateX(0); }
+          100% { transform: translateX(-50%); }
+        }
+      `}</style>
     </div>
   </section>
 );
