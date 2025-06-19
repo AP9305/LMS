@@ -39,9 +39,9 @@ const Tools = () => (
       </p>
       <div className="relative max-w-5xl mx-auto overflow-hidden w-full">
         {/* Left soft fade */}
-        <div className="pointer-events-none absolute left-0 top-0 h-full w-64 z-20" style={{background: 'linear-gradient(to right, #0b0c10 2%, rgba(11,12,16,0.01) 80%, rgba(11,12,16,0))'}} />
+        <div className="pointer-events-none absolute left-0 top-0 h-full w-40 z-20" style={{background: 'linear-gradient(to right, #0b0c10 0%, rgba(11,12,16,0.005) 80%, rgba(11,12,16,0))'}} />
         {/* Right soft fade */}
-        <div className="pointer-events-none absolute right-0 top-0 h-full w-64 z-20" style={{background: 'linear-gradient(to left, #0b0c10 2%, rgba(11,12,16,0.01) 80%, rgba(11,12,16,0))'}} />
+        <div className="pointer-events-none absolute right-0 top-0 h-full w-40 z-20" style={{background: 'linear-gradient(to left, #0b0c10 0%, rgba(11,12,16,0.005) 80%, rgba(11,12,16,0))'}} />
         <div className="flex items-center gap-16 animate-marquee whitespace-nowrap" style={{ animation: 'marquee 18s linear infinite' }}>
           {tools.map((tool, idx) => (
             <div key={idx} className="w-40 h-28 flex flex-col items-center justify-center mx-2 bg-white dark:bg-[#18181b] rounded-xl p-4 shadow border border-[#ececec] dark:border-[#232326]">
