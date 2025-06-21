@@ -5,7 +5,7 @@ const mentors = [
 ];
 
 const Mentors = () => (
-  <section className="relative w-full py-20 px-4 flex flex-col items-center fade-in overflow-hidden">
+  <section id="mentors" className="relative w-full py-20 px-4 flex flex-col items-center fade-in overflow-hidden">
     <div
       aria-hidden="true"
       className="pointer-events-none absolute inset-0 w-full h-full z-0"

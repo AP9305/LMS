@@ -1,5 +1,5 @@
 const Hero = () => (
-  <section className="relative flex flex-col items-center justify-center min-h-[60vh] sm:min-h-[70vh] pt-24 sm:pt-40 pb-10 sm:pb-16 overflow-hidden fade-in">
+  <section id="overview" className="relative flex flex-col items-center justify-center min-h-[60vh] sm:min-h-[70vh] pt-24 sm:pt-40 pb-10 sm:pb-16 overflow-hidden fade-in">
     {/* Cinematic, moody, high-contrast background with light beams */}
     <div
       aria-hidden="true"

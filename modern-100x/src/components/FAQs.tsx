@@ -18,7 +18,7 @@ const faqs = [
 ];
 
 const FAQs = () => (
-  <section className="relative w-full pt-20 px-4 flex flex-col items-center fade-in overflow-hidden">
+  <section id="faqs" className="relative w-full pt-20 px-4 flex flex-col items-center fade-in overflow-hidden">
     <div
       aria-hidden="true"
       className="pointer-events-none absolute inset-0 w-full h-full z-0"

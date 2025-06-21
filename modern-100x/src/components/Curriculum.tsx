@@ -140,7 +140,7 @@ const CurriculumTimeline = () => {
   };
 
   return (
-    <section className="relative w-full py-20 px-4 flex flex-col items-center fade-in overflow-hidden">
+    <section id="curriculum" className="relative w-full py-20 px-4 flex flex-col items-center fade-in overflow-hidden">
       <div className="pointer-events-none absolute inset-0 w-full h-full z-0" style={{
         background: `
           radial-gradient(ellipse 80% 60% at 50% 40%, #0f172a 0%, #000 80%),
