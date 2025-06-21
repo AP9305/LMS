@@ -36,9 +36,9 @@ const FAQs = () => (
         transition: 'background 0.8s cubic-bezier(0.22,1,0.36,1)',
       }}
     />
-    <div className="relative z-10 w-full flex flex-col items-center">
-      <h2 className="text-3xl md:text-4xl font-bold text-center text-black dark:text-white mb-4">You'll Have <span className="bg-gradient-to-r from-blue-500 via-pink-500 to-orange-500 bg-clip-text text-transparent">Questions!</span></h2>
-      <p className="text-lg text-gray-700 dark:text-gray-300 text-center max-w-2xl mb-10">
+    <div className="relative z-10 w-full flex flex-col items-start md:items-center">
+      <h2 className="text-3xl md:text-4xl font-bold text-left md:text-center text-black dark:text-white mb-4" style={{ fontFamily: "'SF Pro Display', 'SF Pro', sans-serif" }}>You'll Have <span className="bg-gradient-to-r from-blue-500 via-pink-500 to-orange-500 bg-clip-text text-transparent">Questions!</span></h2>
+      <p className="text-lg text-gray-700 dark:text-gray-300 text-left md:text-center max-w-2xl mb-10">
         Everything you need to know about the course and payments.
       </p>
       <div className="max-w-3xl w-full flex flex-col gap-6">

@@ -40,10 +40,10 @@ const Testimonials = () => (
         transition: 'background 0.8s cubic-bezier(0.22,1,0.36,1)',
       }}
     />
-    <div className="relative z-10 w-full flex flex-col items-center">
-      <h2 className="text-3xl md:text-4xl font-bold text-center text-white mb-4">Hear from <span className="bg-gradient-to-r from-blue-500 via-pink-500 to-orange-500 bg-clip-text text-transparent">AI</span> LifeBOT</h2>
-      <p className="text-lg text-gray-700 dark:text-gray-300 text-center max-w-2xl mb-10">
-        Find out what our students have to say about us
+    <div className="relative z-10 w-full flex flex-col items-start md:items-center">
+      <h2 className="text-3xl md:text-4xl font-bold text-left md:text-center text-black dark:text-white mb-4" style={{ fontFamily: "'SF Pro Display', 'SF Pro', sans-serif" }}>What Our <span className="bg-gradient-to-r from-blue-500 via-pink-500 to-orange-500 bg-clip-text text-transparent">Students</span> Say</h2>
+      <p className="text-lg text-gray-700 dark:text-gray-300 text-left md:text-center max-w-2xl mb-10">
+        Real stories from our successful alumni.
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 max-w-6xl w-full">
         {testimonials.map((t, idx) => (

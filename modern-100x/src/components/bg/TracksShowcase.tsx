@@ -32,10 +32,12 @@ const TracksShowcase = () => (
     backdropFilter: 'blur(20px)',
     transition: 'background 0.8s cubic-bezier(0.22,1,0.36,1)',
   }}>
-    <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-2">
-      Meet Your Goals with Tailored <span className="bg-gradient-to-r from-pink-500 to-orange-400 bg-clip-text text-transparent">Tracks</span>
-    </h2>
-    <p className="text-lg text-gray-300 text-center mb-10">Forget the one-size-fits-all approach</p>
+    <div className="relative z-10 w-full flex flex-col items-start md:items-center">
+      <h2 className="text-3xl md:text-4xl font-bold text-white text-left md:text-center mb-2">
+        Meet Your Goals with Tailored <span className="bg-gradient-to-r from-pink-500 to-orange-400 bg-clip-text text-transparent">Tracks</span>
+      </h2>
+      <p className="text-lg text-gray-300 text-left md:text-center mb-10">Forget the one-size-fits-all approach</p>
+    </div>
     <div className="flex flex-col gap-8 w-full max-w-3xl">
       {tracks.map((track, idx) => (
         <div key={idx} className="bg-[#18181b] dark:bg-[#232326] rounded-2xl p-8 shadow border border-[#232326] flex flex-col md:flex-row items-center md:items-start gap-6">

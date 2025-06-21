@@ -25,7 +25,7 @@ const Tracks = () => (
       }}
     />
     <div className="relative z-10 w-full flex flex-col items-center">
-      <h2 className="text-4xl md:text-5xl font-extrabold text-neutral-900 dark:text-neutral-100 text-left w-full max-w-4xl mb-4">
+      <h2 className="text-4xl md:text-5xl font-bold text-neutral-900 dark:text-neutral-100 text-left w-full max-w-4xl mb-4" style={{ fontFamily: "'SF Pro Display', 'SF Pro', sans-serif" }}>
         <span className="bg-gradient-to-r from-blue-500 via-pink-500 to-orange-500 bg-clip-text text-transparent">Who</span> Is This For?
       </h2>
       <p className="text-lg md:text-xl text-neutral-900 dark:text-neutral-100 text-left w-full max-w-4xl mb-6">

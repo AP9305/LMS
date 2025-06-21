@@ -32,9 +32,9 @@ const Tools = () => (
         transition: 'background 0.8s cubic-bezier(0.22,1,0.36,1)',
       }}
     />
-    <div className="relative z-10 w-full flex flex-col items-center">
-      <h2 className="text-3xl md:text-4xl font-bold text-center text-neutral-900 dark:text-neutral-100 mb-4">What Will You <span className="bg-gradient-to-r from-blue-500 via-pink-500 to-orange-500 bg-clip-text text-transparent">Master?</span></h2>
-      <p className="text-lg text-neutral-700 dark:text-neutral-300 text-center max-w-2xl mb-10">
+    <div className="relative z-10 w-full flex flex-col items-start md:items-center">
+      <h2 className="text-3xl md:text-4xl font-bold text-left md:text-center text-neutral-900 dark:text-neutral-100 mb-4" style={{ fontFamily: "'SF Pro Display', 'SF Pro', sans-serif" }}>What Will You <span className="bg-gradient-to-r from-blue-500 via-pink-500 to-orange-500 bg-clip-text text-transparent">Master?</span></h2>
+      <p className="text-lg text-neutral-700 dark:text-neutral-300 text-left md:text-center max-w-2xl mb-10">
         Through these tools and frameworks, learn the most important skill - to think like an AI builder!
       </p>
       <div className="relative max-w-5xl mx-auto overflow-hidden w-full">

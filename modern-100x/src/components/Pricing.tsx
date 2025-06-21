@@ -18,7 +18,7 @@ const Pricing = () => (
       }}
     />
     <div className="relative z-10 w-full flex flex-col items-center">
-      <h2 className="text-3xl md:text-4xl font-bold text-center text-black dark:text-white mb-4">Ready to Level Up with <span className="bg-gradient-to-r from-blue-500 via-pink-500 to-orange-500 bg-clip-text text-transparent">AI</span> LifeBOT?</h2>
+      <h2 className="text-3xl md:text-4xl font-bold text-center text-black dark:text-white mb-4" style={{ fontFamily: "'SF Pro Display', 'SF Pro', sans-serif" }}>Ready to Level Up with <span className="bg-gradient-to-r from-blue-500 via-pink-500 to-orange-500 bg-clip-text text-transparent">AI LifeBOT</span>?</h2>
       <p className="text-lg text-gray-700 dark:text-gray-300 text-center max-w-2xl mb-10">
         Access to live classes, curriculum, mentoring, community, events, and job board.
       </p>

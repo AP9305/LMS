@@ -1,5 +1,7 @@
 const mentors = [
-  { name: 'Sagar', title: 'Ex-Teaching Fellow, CS50 @ Harvard', avatar: '🧑‍🏫' },
+  { name: 'Sagar', title: 'AI Product Manager at @AI Life Bot', mobileTitleLine1: 'AI Product Manager', mobileTitleLine2: '@AI Life Bot', avatar: '/SaveClip.App_AQPxtzrdOcp8TlYXPW3cgmo4JIv5ZZsknDmw7skRNSk29OvVsiPJHSsUmYstVj-xjBrJhoSL3mOus1eaOoh5AtM8Icp2krwyXfCKNNQ11.png', isEmoji: false },
+  { name: 'Puneet Aggarwal', title: 'CEO @ AI Life Bot', mobileTitleLine1: 'CEO', mobileTitleLine2: '@ AI Life Bot', avatar: '/ceo.jpg', isEmoji: false },
+  { name: 'Swati Gupta', title: 'Co-founder @ AI Life Bot', mobileTitleLine1: 'Co-founder', mobileTitleLine2: '@ AI Life Bot', avatar: '/co founder.jpg', isEmoji: false },
 ];
 
 const Mentors = () => (
@@ -21,19 +23,36 @@ const Mentors = () => (
         transition: 'background 0.8s cubic-bezier(0.22,1,0.36,1)',
       }}
     />
-    <div className="relative z-10 w-full flex flex-col items-center">
-      <h2 className="text-3xl md:text-4xl font-bold text-center text-black dark:text-white mb-4">Who's <span className="bg-gradient-to-r from-blue-500 via-pink-500 to-orange-500 bg-clip-text text-transparent">Teaching?</span></h2>
-      <p className="text-lg text-gray-700 dark:text-gray-300 text-center max-w-2xl mb-10">
+    <div className="relative z-10 w-full flex flex-col items-start md:items-center">
+      <h2 className="text-3xl md:text-4xl font-bold text-left md:text-center text-black dark:text-white mb-4" style={{ fontFamily: "'SF Pro Display', 'SF Pro', sans-serif" }}>Who's <span className="bg-gradient-to-r from-blue-500 via-pink-500 to-orange-500 bg-clip-text text-transparent">Teaching?</span></h2>
+      <p className="text-lg text-gray-700 dark:text-gray-300 text-left md:text-center max-w-2xl mb-10">
         Learn from the elite. Break the mold!
       </p>
-      <div className="flex flex-col items-center justify-center max-w-2xl w-full">
-        <div className="flex flex-col items-center bg-white dark:bg-[#18181b] rounded-xl p-10 shadow border border-[#ececec] dark:border-[#232326] w-full">
-          <div className="w-36 h-36 flex items-center justify-center rounded-full bg-gradient-to-r from-blue-500 via-pink-500 to-orange-500 text-white text-6xl font-bold mb-6">
-            {mentors[0].avatar}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-5xl">
+        {mentors.map((mentor, index) => (
+          <div key={index} className="flex flex-col items-center bg-white dark:bg-[#18181b] rounded-xl p-10 shadow border border-[#ececec] dark:border-[#232326] w-full">
+            <div className="w-36 h-36 flex items-center justify-center rounded-full bg-gradient-to-r from-blue-500 via-pink-500 to-orange-500 text-white text-6xl font-bold mb-6 overflow-hidden">
+              {mentor.isEmoji ? (
+                <span>{mentor.avatar}</span>
+              ) : (
+                <img src={mentor.avatar} alt={mentor.name} className="w-full h-full object-cover" style={{ objectPosition: '50% 87.5%' }} />
+              )}
+            </div>
+            <h3 className="text-2xl font-bold text-black dark:text-white mb-2">
+              <span className="bg-gradient-to-r from-blue-500 via-pink-500 to-orange-500 bg-clip-text text-transparent">{mentor.name}</span>
+            </h3>
+            <p className="text-gray-700 dark:text-gray-300 text-center text-lg">
+              {mentor.mobileTitleLine1 ? (
+                <>
+                  <span className="md:hidden">{mentor.mobileTitleLine1}<br />{mentor.mobileTitleLine2}</span>
+                  <span className="hidden md:inline">{mentor.title}</span>
+                </>
+              ) : (
+                mentor.title
+              )}
+            </p>
           </div>
-          <h3 className="text-2xl font-bold text-black dark:text-white mb-2">{mentors[0].name}</h3>
-          <p className="text-gray-700 dark:text-gray-300 text-center text-lg">{mentors[0].title}</p>
-        </div>
+        ))}
       </div>
     </div>
   </section>

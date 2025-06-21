@@ -23,7 +23,7 @@ const CompanyMarquee = () => (
     backdropFilter: 'blur(20px)',
     transition: 'background 0.8s cubic-bezier(0.22,1,0.36,1)',
   }}>
-    <h3 className="text-lg md:text-xl text-gray-300 mb-6 text-center font-semibold">
+    <h3 className="text-lg md:text-xl text-gray-300 mb-6 text-center font-semibold px-4 md:px-0">
       Students working with top companies like
     </h3>
     <div className="relative max-w-4xl mx-auto overflow-hidden">
