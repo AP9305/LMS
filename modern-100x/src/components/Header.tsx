@@ -44,7 +44,14 @@ const Header = () => {
           <a href="#" className="hover:bg-gradient-to-r hover:from-blue-500 hover:via-pink-500 hover:to-orange-500 hover:bg-clip-text hover:text-transparent transition-colors">Contact Us</a>
         </nav>
         <div className="hidden md:flex items-center gap-3">
-          <button className="px-4 sm:px-7 py-2.5 bg-gradient-to-r from-blue-500 via-pink-500 to-orange-500 text-white rounded-xl font-semibold text-base shadow-lg hover:from-blue-600 hover:via-pink-600 hover:to-orange-600 transition-all luxury-btn">Enroll Now</button>
+          <a
+            href="https://tally.so/r/w8V2R5"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-4 sm:px-7 py-2.5 bg-gradient-to-r from-blue-500 via-pink-500 to-orange-500 text-white rounded-xl font-semibold text-base shadow-lg hover:from-blue-600 hover:via-pink-600 hover:to-orange-600 transition-all luxury-btn"
+          >
+            Enroll Now
+          </a>
         </div>
         <div className="md:hidden">
           <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="p-2 rounded-md text-black dark:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
@@ -64,8 +71,15 @@ const Header = () => {
             <a href="#" className="hover:bg-gradient-to-r hover:from-blue-500 hover:via-pink-500 hover:to-orange-500 hover:bg-clip-text hover:text-transparent transition-colors">About Us</a>
             <a href="#" className="hover:bg-gradient-to-r hover:from-blue-500 hover:via-pink-500 hover:to-orange-500 hover:bg-clip-text hover:text-transparent transition-colors">Careers</a>
             <a href="#" className="hover:bg-gradient-to-r hover:from-blue-500 hover:via-pink-500 hover:to-orange-500 hover:bg-clip-text hover:text-transparent transition-colors">Contact Us</a>
-            <div className="mt-4 w-full px-4">
-              <button className="w-full px-4 py-2.5 bg-gradient-to-r from-blue-500 via-pink-500 to-orange-500 text-white rounded-xl font-semibold text-base shadow-lg hover:from-blue-600 hover:via-pink-600 hover:to-orange-600 transition-all luxury-btn">Enroll Now</button>
+            <div className="mt-4 w-full flex justify-center px-4">
+              <a
+                href="https://tally.so/r/w8V2R5"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-5 py-2 bg-gradient-to-r from-blue-500 via-pink-500 to-orange-500 text-white rounded-lg font-semibold text-base shadow-lg hover:from-blue-600 hover:via-pink-600 hover:to-orange-600 transition-all luxury-btn text-center w-auto"
+              >
+                Enroll Now
+              </a>
             </div>
           </nav>
         </div>

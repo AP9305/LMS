@@ -25,7 +25,14 @@ const Pricing = () => (
       <div className="flex flex-col md:flex-row gap-8 justify-center items-center mb-6">
       </div>
       <div className="flex justify-center">
-        <button className="px-6 py-2 bg-gradient-to-r from-blue-500 via-pink-500 to-orange-500 text-white rounded-lg font-semibold hover:from-blue-600 hover:via-pink-600 hover:to-orange-600 transition">Enroll Now</button>
+        <a
+          href="https://tally.so/r/w8V2R5"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-8 py-3 bg-gradient-to-r from-blue-500 via-pink-500 to-orange-500 text-white rounded-xl font-semibold text-lg shadow-lg hover:from-blue-600 hover:via-pink-600 hover:to-orange-600 transition"
+        >
+          Enroll Now
+        </a>
       </div>
     </div>
   </section>

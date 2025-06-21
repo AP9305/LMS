@@ -29,8 +29,15 @@ const Hero = () => (
       <p className="mt-4 sm:mt-6 text-base sm:text-xl md:text-2xl text-center text-gray-200 font-medium">
         From Zero to Pro in 3 months.<br />
       </p>
-      <div className="mt-6 sm:mt-8 flex flex-col gap-3 sm:gap-4 w-full max-w-xs">
-        <button className="w-full px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-blue-500 via-pink-500 to-orange-500 text-white rounded-2xl font-semibold text-lg sm:text-xl shadow-lg hover:from-blue-600 hover:via-pink-600 hover:to-orange-600 transition luxury-btn">Join AI Masterclass</button>
+      <div className="mt-6 sm:mt-8 flex flex-col gap-3 sm:gap-4 items-center">
+        <a
+          href="https://tally.so/r/w8V2R5"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-10 py-4 bg-gradient-to-r from-blue-500 via-pink-500 to-orange-500 text-white rounded-xl font-semibold text-xl shadow-lg hover:from-blue-600 hover:via-pink-600 hover:to-orange-600 transition luxury-btn"
+        >
+          Join AI Masterclass
+        </a>
       </div>
       <div className="mt-4 sm:mt-6 text-center">
         <span className="text-gray-300 italic text-xs sm:text-sm">Final Masterclass on <span className="font-semibold text-white">19th July</span></span>
