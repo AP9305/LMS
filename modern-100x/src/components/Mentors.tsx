@@ -1,7 +1,7 @@
 const mentors = [
-  { name: 'Sagar', title: 'AI Product Manager at @AI Life Bot', mobileTitleLine1: 'AI Product Manager', mobileTitleLine2: '@AI Life Bot', avatar: '/SaveClip.App_AQPxtzrdOcp8TlYXPW3cgmo4JIv5ZZsknDmw7skRNSk29OvVsiPJHSsUmYstVj-xjBrJhoSL3mOus1eaOoh5AtM8Icp2krwyXfCKNNQ11.png', isEmoji: false },
-  { name: 'Puneet Aggarwal', title: 'CEO @ AI Life Bot', mobileTitleLine1: 'CEO', mobileTitleLine2: '@ AI Life Bot', avatar: '/ceo.jpg', isEmoji: false },
-  { name: 'Swati Gupta', title: 'Co-founder @ AI Life Bot', mobileTitleLine1: 'Co-founder', mobileTitleLine2: '@ AI Life Bot', avatar: '/co founder.jpg', isEmoji: false },
+  { name: 'Sagar', role: 'AI Product Manager', company: '@ AI Life Bot', avatar: '/SaveClip.App_AQPxtzrdOcp8TlYXPW3cgmo4JIv5ZZsknDmw7skRNSk29OvVsiPJHSsUmYstVj-xjBrJhoSL3mOus1eaOoh5AtM8Icp2krwyXfCKNNQ11.png', isEmoji: false },
+  { name: 'Puneet Aggarwal', role: 'CEO', company: '@ AI Life Bot', avatar: '/ceo.jpg', isEmoji: false },
+  { name: 'Swati Gupta', role: 'Co-founder', company: '@ AI Life Bot', avatar: '/co founder.jpg', isEmoji: false },
 ];
 
 const Mentors = () => (
@@ -42,14 +42,7 @@ const Mentors = () => (
               <span className="bg-gradient-to-r from-blue-500 via-pink-500 to-orange-500 bg-clip-text text-transparent">{mentor.name}</span>
             </h3>
             <p className="text-gray-700 dark:text-gray-300 text-center text-lg">
-              {mentor.mobileTitleLine1 ? (
-                <>
-                  <span className="md:hidden">{mentor.mobileTitleLine1}<br />{mentor.mobileTitleLine2}</span>
-                  <span className="hidden md:inline">{mentor.title}</span>
-                </>
-              ) : (
-                mentor.title
-              )}
+              {mentor.role}<br />{mentor.company}
             </p>
           </div>
         ))}
