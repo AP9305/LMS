@@ -1,7 +1,7 @@
 const mentors = [
-  { name: 'Sagar', role: 'AI Product Manager', company: '@AILifeBot', avatar: '/SaveClip.App_AQPxtzrdOcp8TlYXPW3cgmo4JIv5ZZsknDmw7skRNSk29OvVsiPJHSsUmYstVj-xjBrJhoSL3mOus1eaOoh5AtM8Icp2krwyXfCKNNQ11.png', isEmoji: false },
-  { name: 'Puneet Aggarwal', role: 'CEO', company: '@AILifeBot', avatar: '/ceo.jpg', isEmoji: false },
-  { name: 'Swati Gupta', role: 'Co-founder', company: '@AILifeBot', avatar: '/co founder.jpg', isEmoji: false },
+  { name: 'Sagar', role: 'AI Product Manager', company: '@AI LifeBOT', avatar: '/SaveClip.App_AQPxtzrdOcp8TlYXPW3cgmo4JIv5ZZsknDmw7skRNSk29OvVsiPJHSsUmYstVj-xjBrJhoSL3mOus1eaOoh5AtM8Icp2krwyXfCKNNQ11.png', isEmoji: false },
+  { name: 'Puneet Aggarwal', role: 'CEO', company: '@AI LifeBOT', avatar: '/ceo.jpg', isEmoji: false },
+  { name: 'Swati Gupta', role: 'Co-founder', company: '@AI LifeBOT', avatar: '/co founder.jpg', isEmoji: false },
 ];
 
 const Mentors = () => (
