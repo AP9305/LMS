@@ -23,10 +23,10 @@ const Header = () => {
     <>
       <header className="w-full flex items-center justify-between px-4 sm:px-8 py-3 sm:py-4 bg-white dark:bg-[#18181b] shadow-sm fixed top-0 left-0 z-50 h-[80px] sm:h-[96px]">
     <div className="flex items-center select-none">
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-start">
             <img src="/ailifebot logo.jpg" alt="AI LifeBOT Logo" className="h-8 sm:h-10 w-auto object-contain mb-1 rounded-full mt-2" />
-        <span className="text-xs text-white font-semibold tracking-wide mt-1">Academy</span>
-      </div>
+            <span className="text-xs text-white font-semibold tracking-wide mt-1 ml-2">Academy</span>
+          </div>
     </div>
     <nav className="hidden md:flex gap-4 sm:gap-8 text-sm sm:text-base font-medium text-[#222] dark:text-[#bdbdbd]">
           <a href="#overview" className="hover:bg-gradient-to-r hover:from-blue-500 hover:via-pink-500 hover:to-orange-500 hover:bg-clip-text hover:text-transparent transition-colors">Overview</a>
@@ -79,7 +79,7 @@ const Header = () => {
         </div>
       )}
     </>
-  );
+);
 };
 
 export default Header; 

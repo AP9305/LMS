@@ -27,22 +27,22 @@ const Hero = () => (
         <span className="bg-gradient-to-r from-blue-500 via-pink-500 to-orange-500 bg-clip-text text-transparent">Generative-AI Expert</span>
       </h1>
       <p className="mt-4 sm:mt-6 text-base sm:text-xl md:text-2xl text-center text-gray-200 font-medium">
-        From Zero to Pro in 3 months.<br />
+        From Zero to Pro for <span className="italic bg-gradient-to-r from-blue-500 via-pink-500 to-orange-500 bg-clip-text text-transparent align-middle inline-block" style={{ fontSize: '2.25rem', fontWeight: 700, verticalAlign: 'middle', lineHeight: 1 }}>FREE</span>
       </p>
       <div className="mt-6 sm:mt-8 flex flex-col gap-3 sm:gap-4 items-center">
         <a
           href="https://tally.so/r/w8V2R5"
           target="_blank"
           rel="noopener noreferrer"
-          className="px-10 py-4 bg-gradient-to-r from-blue-500 via-pink-500 to-orange-500 text-white rounded-xl font-semibold text-xl shadow-lg hover:from-blue-600 hover:via-pink-600 hover:to-orange-600 transition luxury-btn"
+          className="px-10 py-4 bg-gradient-to-r from-blue-500 via-pink-500 to-orange-500 text-white rounded-xl font-semibold text-3xl shadow-lg hover:from-blue-600 hover:via-pink-600 hover:to-orange-600 transition luxury-btn"
         >
           Join AI Masterclass
         </a>
       </div>
-      <div className="mt-4 sm:mt-6 text-center">
-        <span className="text-gray-300 italic text-xs sm:text-sm">Final Masterclass on <span className="font-semibold text-white">19th July</span></span>
+      <div className="mt-1 sm:mt-2 text-center">
+        <span className="text-gray-300 italic font-semibold text-2xl sm:text-2xl md:text-3xl">On <span className="text-white">19th July</span></span>
         <br />
-        <span className="text-gray-400 italic text-[10px] sm:text-xs">8PM onwards</span>
+        <span className="text-gray-400 italic font-semibold text-xl sm:text-xl md:text-2xl">8PM onwards</span>
       </div>
     </div>
   </section>
