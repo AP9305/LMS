@@ -140,7 +140,7 @@ const CurriculumTimeline = () => {
   };
 
   return (
-    <section id="curriculum" className="relative w-full py-20 px-4 flex flex-col items-center fade-in overflow-hidden">
+    <section id="curriculum" className="relative w-full py-8 px-4 flex flex-col items-center fade-in overflow-hidden">
       <div className="pointer-events-none absolute inset-0 w-full h-full z-0" style={{
         background: `
           radial-gradient(ellipse 80% 60% at 50% 40%, #0f172a 0%, #000 80%),
@@ -154,9 +154,9 @@ const CurriculumTimeline = () => {
         backdropFilter: 'blur(20px)',
         transition: 'background 0.8s cubic-bezier(0.22,1,0.36,1)',
       }} />
-      <div className="relative z-10 w-full max-w-4xl mx-auto flex flex-col items-start md:items-center">
-        <h2 className="text-3xl md:text-4xl font-bold text-left md:text-center text-black dark:text-white mb-2" style={{ fontFamily: "'SF Pro Display', 'SF Pro', sans-serif" }}>What Will You <span className="bg-gradient-to-r from-blue-500 via-pink-500 to-orange-500 bg-clip-text text-transparent">Learn?</span></h2>
-        <p className="text-lg text-gray-700 dark:text-gray-300 text-left md:text-center mb-10">The most beginner-friendly curriculum in Generative AI. Zero to Pro in 3 months.</p>
+      <div className="relative z-10 w-full max-w-4xl mx-auto flex flex-col items-start md:items-start">
+        <h2 className="text-3xl md:text-4xl font-bold text-left md:text-left text-black dark:text-white mb-2" style={{ fontFamily: "'SF Pro Display', 'SF Pro', sans-serif" }}>What Will You <span className="bg-gradient-to-r from-blue-500 via-pink-500 to-orange-500 bg-clip-text text-transparent">Learn?</span></h2>
+        <p className="text-lg text-gray-700 dark:text-gray-300 text-left md:text-left mb-10">The most beginner-friendly curriculum in Generative AI. Zero to Pro in 3 months.</p>
         <div className="relative w-full">
           {/* Vertical timeline line */}
           <div className="absolute left-6 top-0 w-1 h-full border-dashed border-l-2 border-gray-300 dark:border-gray-700 z-0" />

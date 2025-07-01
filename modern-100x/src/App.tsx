@@ -28,11 +28,11 @@ function App() {
         <Hero />
         <CompanyMarquee />
         <Features />
+        <Curriculum />
         <Tracks />
+        <Mentors />
         <Tools />
         <TracksShowcase />
-        <Curriculum />
-        <Mentors />
         <Testimonials />
         <Pricing />
         <FAQs />

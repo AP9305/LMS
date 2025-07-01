@@ -27,8 +27,8 @@ const Features = () => (
       }}
     />
     <div className="relative z-10 w-full flex flex-col items-start md:items-center">
-      <h2 className="text-3xl md:text-4xl font-bold text-left md:text-center text-neutral-900 dark:text-neutral-100 mb-10" style={{ fontFamily: "'SF Pro Display', 'SF Pro', sans-serif" }}>
-        What's <span className="bg-gradient-to-r from-blue-500 via-pink-500 to-orange-500 bg-clip-text text-transparent">Inside?</span>
+      <h2 className="text-3xl md:text-4xl font-bold text-left md:text-center text-neutral-900 dark:text-neutral-100 mb-2" style={{ fontFamily: "'SF Pro Display', 'SF Pro', sans-serif" }}>
+        3 Months <span className="bg-gradient-to-r from-blue-500 via-pink-500 to-orange-500 bg-clip-text text-transparent">Gen. AI Course</span>
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl w-full">
         {features.map((feature, idx) => (
